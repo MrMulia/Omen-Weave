@@ -1,0 +1,12 @@
+/home/nosferatu/Cloud/Weave-SIEM/OW-SIEM_v0.1/target/release/deps/libterm-1f13600acf7224ab.rmeta: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/mod.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/searcher.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/parser/compiled.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/parser/names.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/parm.rs
+
+/home/nosferatu/Cloud/Weave-SIEM/OW-SIEM_v0.1/target/release/deps/libterm-1f13600acf7224ab.rlib: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/mod.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/searcher.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/parser/compiled.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/parser/names.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/parm.rs
+
+/home/nosferatu/Cloud/Weave-SIEM/OW-SIEM_v0.1/target/release/deps/term-1f13600acf7224ab.d: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/mod.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/searcher.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/parser/compiled.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/parser/names.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/parm.rs
+
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/lib.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/mod.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/searcher.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/parser/compiled.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/parser/names.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.4.6/src/terminfo/parm.rs:

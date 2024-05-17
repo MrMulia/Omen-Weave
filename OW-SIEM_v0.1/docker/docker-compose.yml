@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  rust-program:
+    build:
+      context: ../data-ingestion/rust
+      dockerfile: Dockerfile
+    environment:
+      - DEVICE_NAME=eth0
+      - WS_URL=ws://go-program:5001/ws
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN
+    networks:
+      - siem-network
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail http://localhost:4000 || exit 1"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+    ports:
+      - "4000:4000"
+
+  go-program:
+    build:
+      context: ../data-ingestion/go
+      dockerfile: Dockerfile
+    networks:
+      - siem-network
+    ports:
+      - "5001:5001"
+
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    depends_on:
+      - go-program
+    networks:
+      - siem-network
+    ports:
+      - "3000:3000"
+
+networks:
+  siem-network:
+    driver: bridge

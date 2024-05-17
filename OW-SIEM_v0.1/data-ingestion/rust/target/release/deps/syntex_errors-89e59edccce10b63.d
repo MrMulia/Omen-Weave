@@ -1,0 +1,11 @@
+/usr/src/app/target/release/deps/libsyntex_errors-89e59edccce10b63.rmeta: /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/emitter.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/snippet.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/registry.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/styled_buffer.rs
+
+/usr/src/app/target/release/deps/libsyntex_errors-89e59edccce10b63.rlib: /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/emitter.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/snippet.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/registry.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/styled_buffer.rs
+
+/usr/src/app/target/release/deps/syntex_errors-89e59edccce10b63.d: /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/emitter.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/snippet.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/registry.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/styled_buffer.rs
+
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/lib.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/emitter.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/snippet.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/registry.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/styled_buffer.rs:

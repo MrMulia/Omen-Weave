@@ -1,0 +1,48 @@
+OW-SIEM_v01/
+├──Cargo.toml
+├──Cargo.lock
+├── data-ingestion/
+│   ├── go/
+│   │   ├── main.go
+│   │   ├──Dockerfile
+│   ├── rust/
+│       ├── src/
+│       │   ├── main.rs
+│       ├── Cargo.toml
+│       ├── Dockerfile
+├── backend/
+│   ├── processing/
+│   │   ├── app.py
+│   │   ├── requirements.txt
+│   ├── analytics/
+│   │   ├── analytics.py
+│   │   ├── outbound_measurement.py
+│   │   ├── requirements.txt
+│   ├── ai/
+│   │   ├── model_training.py
+│   │   ├── inference.py
+│   │   ├── requirements.txt
+│   │   ├── model/
+│   │       ├── model.pkl
+├── api/
+│   ├── go/
+│   │   ├── main.go
+│   ├── python/
+│       ├── app.py
+│       ├── requirements.txt
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Dashboard.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── index.css
+│   ├── package.json
+│   ├── Dockerfile
+├── docker/
+│   ├── docker-compose.yml
+│   ├── terraform/
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── outputs.tf

@@ -1,0 +1,11 @@
+/home/nosferatu/Cloud/Weave-SIEM/OW-SIEM_v0.1/target/release/deps/libsyntex_errors-cab00010f189ad17.rmeta: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/emitter.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/snippet.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/registry.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/styled_buffer.rs
+
+/home/nosferatu/Cloud/Weave-SIEM/OW-SIEM_v0.1/target/release/deps/libsyntex_errors-cab00010f189ad17.rlib: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/emitter.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/snippet.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/registry.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/styled_buffer.rs
+
+/home/nosferatu/Cloud/Weave-SIEM/OW-SIEM_v0.1/target/release/deps/syntex_errors-cab00010f189ad17.d: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/emitter.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/snippet.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/registry.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/styled_buffer.rs
+
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/lib.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/emitter.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/snippet.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/registry.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syntex_errors-0.42.0/src/styled_buffer.rs:

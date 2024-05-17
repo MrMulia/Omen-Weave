@@ -1,0 +1,19 @@
+User        Dashboard       APIService       PacketCapture      DataProcessor     TrafficAnalyzer
+ |               |              |                 |                    |                  |
+ |    Request    |              |                 |                    |                  |
+ |-------------->|              |                 |                    |                  |
+ |               |   Forward    |                 |                    |                  |
+ |               |------------->|                 |                    |                  |
+ |               |              |   startCapture  |                    |                  |
+ |               |              |---------------> |                    |                  |
+ |               |              |                 |  Capture Packets   |                  |
+ |               |              |                 |------------------->|                  |
+ |               |              |                 |                    |  Process Data    |
+ |               |              |                 |                    |----------------->|
+ |               |              |                 |                    |                  |
+ |               |              |                 |                    | Analyze Traffic  |
+ |               |              |                 |                    |----------------->|
+ |               |              |                 |                    |                  |
+ |  Update UI    |              |                 |                    |                  |
+ |<--------------|              |                 |                    |                  |
+
