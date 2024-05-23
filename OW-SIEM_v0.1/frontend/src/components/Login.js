@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
 
-function Login() {
+function Login({ onLogin }) {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [authCode, setAuthCode] = useState('');
@@ -13,6 +13,7 @@ function Login() {
         e.preventDefault();
         // Mock authentication logic
         if (email === 'user@example.com' && password === 'password' && authCode === '123456') {
+            onLogin();
             navigate('/dashboard');
         } else {
             alert('Invalid credentials');

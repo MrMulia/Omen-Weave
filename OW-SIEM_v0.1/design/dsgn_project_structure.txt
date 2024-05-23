@@ -4,11 +4,30 @@ OW-SIEM_v01/
 ├── data-ingestion/
 │   ├── go/
 │   │   ├── main.go
+│   │   ├── common/
+│   |   │   ├── common.go
+│   │   ├── entropy/
+│   |   │   ├── entropy.go
+│   │   ├── handlers/
+│   |   │   ├── handlers.go
+│   │   ├── owlscores/
+│   |   │   ├── owlscore.go
+│   │   ├── server/
+│   |   │   ├── server.go
+│   │   ├── utils/
+│   |   │   ├── utils.go
 │   │   ├──Dockerfile
+│   │   ├── go.mod
+│   │   ├── go.sum
 │   ├── rust/
 │       ├── src/
 │       │   ├── main.rs
+│       ├── target/
+│       │   ├── release/
+│       │   ├── .rustc_info.json
+│       │   ├── CACHEDIR.TAG
 │       ├── Cargo.toml
+│       ├── Cargo.lock
 │       ├── Dockerfile
 ├── backend/
 │   ├── processing/
@@ -35,11 +54,27 @@ OW-SIEM_v01/
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── Dashboard.js
+│   │   │   ├── DetectionSeverity.js
+│   │   │   ├── Login.js
+│   │   │   ├── login.css
+│   │   │   ├── Network.js
+│   │   │   ├── OwlScore.js
+│   │   │   ├── RecentDetections.js
+│   │   │   ├── ShaDetections.js
+│   │   │   ├── Sidebar.js
+│   │   │   ├── Sidebar.css
+│   │   │   ├── System.js
+│   │   │   ├── ThreatHuntingLeads.js
+│   │   │   ├── ThreatIntelligence.js
+│   │   │   ├── TopNotableSources.js
+│   │   │   ├── TrafficDistribution.js
 │   │   ├── App.js
 │   │   ├── index.js
 │   │   ├── index.css
 │   ├── package.json
+│   ├── package-lock.json
 │   ├── Dockerfile
+│   ├── .babelrc
 ├── docker/
 │   ├── docker-compose.yml
 │   ├── terraform/

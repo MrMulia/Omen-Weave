@@ -1,5 +1,13 @@
 package main
 
+import (
+    "omenweave-siem/common"
+    "omenweave-siem/server"
+    "omenweave-siem/owlscores"
+)
+
 func main() {
-    startServer()
+    common.InitLocalIP()
+    go owlscores.StartOWLScoreBroadcast()
+    server.StartServer()
 }

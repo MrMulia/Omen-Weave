@@ -47,6 +47,7 @@ body {
     border-radius: 4px;
     background-color: #3c3c3c;
     color: #fff;
+    box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
 }
 
 .login-form .login-button {
