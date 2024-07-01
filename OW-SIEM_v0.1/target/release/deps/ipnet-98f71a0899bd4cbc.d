@@ -1,0 +1,11 @@
+/mnt/c/Users/vitom/Local Documents/Omen & Weave/OW-SIEM_v0.1/target/release/deps/libipnet-98f71a0899bd4cbc.rmeta: /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/lib.rs /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/ipext.rs /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/ipnet.rs /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/parser.rs /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/mask.rs
+
+/mnt/c/Users/vitom/Local Documents/Omen & Weave/OW-SIEM_v0.1/target/release/deps/libipnet-98f71a0899bd4cbc.rlib: /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/lib.rs /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/ipext.rs /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/ipnet.rs /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/parser.rs /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/mask.rs
+
+/mnt/c/Users/vitom/Local Documents/Omen & Weave/OW-SIEM_v0.1/target/release/deps/ipnet-98f71a0899bd4cbc.d: /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/lib.rs /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/ipext.rs /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/ipnet.rs /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/parser.rs /home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/mask.rs
+
+/home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/lib.rs:
+/home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/ipext.rs:
+/home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/ipnet.rs:
+/home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/parser.rs:
+/home/nosferatu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.9.0/src/mask.rs:
