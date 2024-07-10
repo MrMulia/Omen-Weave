@@ -5,6 +5,7 @@ import Dashboard from './components/Dashboard';
 import System from './components/System';
 import Network from './components/Network';
 import Alerts from './components/Alerts';
+import Policies from './components/Policies';
 import Timeline from './components/Timeline';
 import OwlScore from './components/OwlScore';
 import TopNotableSources from './components/TopNotableSources';
@@ -32,6 +33,7 @@ function App() {
         {isLoggedIn && <Route path="/system" element={<System />} />}
         {isLoggedIn && <Route path="/network" element={<Network />} />}
         {isLoggedIn && <Route path="/alerts" element={<Alerts />} />}
+        {isLoggedIn && <Route path="/policies" element={<Policies />} />}
         {isLoggedIn && <Route path="/timeline" element={<Timeline />} />}
         {isLoggedIn && <Route path="/owl-score" element={<OwlScore />} />}
         {isLoggedIn && <Route path="/top-notable-sources" element={<TopNotableSources />} />}

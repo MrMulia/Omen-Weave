@@ -33,9 +33,16 @@ fn main() {
                 Ok(stream) => {
                     let mut websocket = accept(stream).expect("Failed to accept WebSocket connection");
                     loop {
-                        let msg = websocket.read_message().expect("Error reading message");
-                        if msg.is_binary() || msg.is_text() {
-                            println!("Received message: {:?}", msg);
+                        match websocket.read_message() {
+                            Ok(msg) => {
+                                if msg.is_binary() || msg.is_text() {
+                                    println!("Received message: {:?}", msg);
+                                }
+                            }
+                            Err(e) => {
+                                eprintln!("Error reading message: {:?}", e);
+                                break;
+                            }
                         }
                     }
                 }
@@ -188,11 +195,9 @@ fn main() {
             };
 
             // Send collected data to Go server
-            let response = client.post(data_url)
+            match client.post(data_url)
                 .body(serialized_data)
-                .send();
-
-            match response {
+                .send() {
                 Ok(_) => println!("Data sent to Go server!"),
                 Err(e) => eprintln!("Failed to send data to Go server: {:?}", e),
             }

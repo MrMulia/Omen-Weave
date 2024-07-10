@@ -16,6 +16,7 @@ function Sidebar({ isOpen, onClose }) {
                     </ul>
                 </li>
                 <li><Link to="/alerts">Alerts</Link></li>
+                <li><Link to="/policies">Policies</Link></li>
                 <li><Link to="#">Assets</Link></li>
                 <li><Link to="/timeline">Timeline</Link></li>
                 <li><Link to="#">Applications</Link></li>

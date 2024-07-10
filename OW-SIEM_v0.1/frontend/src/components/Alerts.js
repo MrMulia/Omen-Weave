@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import OWLogo from './ow-logo.png';
+// import OWLogo from './ow-logo.png'; // Comment out to temporarily hide the logo
 import Sidebar from './Sidebar';
 import '../index.css';
 
@@ -23,7 +23,7 @@ const Alerts = () => {
       <header>
         <div className="logo">
           <a href="#" onClick={() => setIsSidebarOpen(true)}>
-            <img src={OWLogo} alt="Omen & Weave Logo" style={{ height: '30px', width: '30px' }} /> Omen & Weave
+            {/* <img src={OWLogo} alt="Omen & Weave Logo" style={{ height: '30px', width: '30px' }} /> */} Omen & Weave
           </a>
         </div>
         <div className="search-bar">
@@ -35,7 +35,7 @@ const Alerts = () => {
         </div>
       </header>
       <Sidebar isOpen={isSidebarOpen} onClose={() => setIsSidebarOpen(false)} />
-      <div className="alerts-header">
+      <div className="dashboard-header">
         <h1>Alerts</h1>
       </div>
       <div className="alerts">

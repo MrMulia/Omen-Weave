@@ -21,33 +21,35 @@ header {
     left: 0;
     right: 0;
     z-index: 1000;
-    height: 40px;
+    height: 32px; /* Adjusted height */
 }
 
 header .logo a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
+    line-height: 32px; /* Adjusted line height */
 }
 
 header .search-bar {
     flex-grow: 1;
     display: flex;
     justify-content: center;
+    align-items: center; /* Ensure centered vertically */
 }
 
 header .search-bar input {
     width: 100%;
     max-width: 300px;
-    padding: 5px 10px;
+    padding: 3px 10px;
     border: 2px solid rgba(255, 255, 255, 0.3);
     border-radius: 20px;
     background-color: #222;
     color: #fff;
     text-align: center;
     outline: none;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 header .user-info {
@@ -82,24 +84,56 @@ header .user-info {
 .dashboard-header {
     background-color: #333;
     color: #fff;
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     position: fixed;
-    top: 45px;
+    top: 40px; /* Adjusted top position */
     left: 0;
     right: 0;
     z-index: 999;
-    height: 40px;
+    height: 38px; /* Adjusted height */
     border-radius: 0px;
-    font-size: 1.2rem;
+    font-size: 1rem; /* Adjusted font size */
 }
 
 .dashboard-header h1 {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1rem; /* Adjusted font size */
+}
+
+.policies-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3e3e3e;
+    position: fixed;
+    padding: 0.5rem 1rem;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    top: 80px; /* Adjusted top position */
+    left: 0;
+    right: 0;
+    z-index: 999;
+    height: 28px; /* Adjusted height */
+}
+
+.policies-header h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.policies-header button {
+    background-color: #FFA500;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.9rem;
 }
 
 #networkStatus {
@@ -141,7 +175,7 @@ header .user-info {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 2px;
-    padding: 93px 0px 15px 0px;
+    padding: 75px 0px 15px 0px; /* Adjusted padding */
     height: calc(107.5vh - 120px);
     box-sizing: border-box;
 }
@@ -461,5 +495,31 @@ canvas {
 .separator {
     font-size: 6rem;
     margin: 0 10px;
+    color: #fff;
+}
+
+/* Policies page styles */
+
+.policies-table {
+    width: 100%;
+    top: 90px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.policies-table th,
+.policies-table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+
+.policies-table th {
+    background-color: #555;
+    color: #fff;
+}
+
+.policies-table td {
+    background-color: #2c2c2c;
     color: #fff;
 }

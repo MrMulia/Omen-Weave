@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Line, Bar } from 'react-chartjs-2';
-import OWLogo from './ow-logo.png';
+// import OWLogo from './ow-logo.png';
 import Sidebar from './Sidebar';
 import '../index.css';
 import {
@@ -265,7 +265,7 @@ const Dashboard = () => {
       <header>
         <div className="logo">
           <a href="#" onClick={() => setIsSidebarOpen(true)}>
-          <img src={OWLogo} alt="Omen & Weave Logo" style={{ height: '30px', width: '30px' }} /> Omen & Weave
+          {/* <img src={OWLogo} alt="Omen & Weave Logo" style={{ height: '30px', width: '30px' }} /> */} Omen & Weave
           </a>
         </div>
         <div className="search-bar">
@@ -363,4 +363,3 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
-

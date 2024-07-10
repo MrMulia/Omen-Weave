@@ -1,22 +1,22 @@
 OW-SIEM_v01/
-├──Cargo.toml
-├──Cargo.lock
+├── Cargo.toml
+├── Cargo.lock
 ├── data-ingestion/
 │   ├── go/
 │   │   ├── main.go
 │   │   ├── common/
-│   |   │   ├── common.go
+│   │   │   ├── common.go
 │   │   ├── entropy/
-│   |   │   ├── entropy.go
+│   │   │   ├── entropy.go
 │   │   ├── handlers/
-│   |   │   ├── handlers.go
+│   │   │   ├── handlers.go
 │   │   ├── owlscores/
-│   |   │   ├── owlscore.go
+│   │   │   ├── owlscore.go
 │   │   ├── server/
-│   |   │   ├── server.go
+│   │   │   ├── server.go
 │   │   ├── utils/
-│   |   │   ├── utils.go
-│   │   ├──Dockerfile
+│   │   │   ├── utils.go
+│   │   ├── Dockerfile
 │   │   ├── go.mod
 │   │   ├── go.sum
 │   ├── rust/
@@ -49,6 +49,22 @@ OW-SIEM_v01/
 │   ├── python/
 │       ├── app.py
 │       ├── requirements.txt
+├── auth-service/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │       ├── com/
+│   │   │       │   ├── example/
+│   │   │       │   │   ├── AuthServiceApplication.java
+│   │   │       │   │   ├── controller/
+│   │   │       │   │   │   ├── AuthController.java
+│   │   │       │   │   ├── service/
+│   │   │       │   │   │   ├── UserService.java
+│   │   │       │   │   ├── util/
+│   │   │       │   │   │   ├── JwtUtil.java
+│   ├── resources/
+│   │   ├── application.properties
+│   ├── pom.xml
 ├── frontend/
 │   ├── public/
 │   ├── src/
